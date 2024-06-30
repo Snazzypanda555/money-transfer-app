@@ -1,0 +1,19 @@
+package com.techelevator.tenmo.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class Transfer {
+    int transferId;
+    int transferType;
+    int transferStatus;
+    int accountFrom;
+    int accountTo;
+    double amount;
+}
